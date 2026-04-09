@@ -10,17 +10,21 @@ public class PlayerMovement : MonoBehaviour
 
     private Vector2 m_position;
     private Rigidbody2D rb2D;
+    [SerializeField]int lookDirection;
+    float walkSpeed;
+     float jumpForce;
 
-    [SerializeField] float walkSpeed = 5f;
-    [SerializeField] float jumpForce = 5f;
-    [SerializeField]int lookDirection = 1;
+    [SerializeField]int jumpCount = 0;
 
     public GameObject groundCheck;
+    [SerializeField]GameObject jumpCloud;
     public bool isGrounded;
 
     public AudioSource jumpSound;
     public AudioSource walkSound;
+    [SerializeField]GameObject walkObject;
     public AudioSource landSound;
+    [SerializeField]Animator playerAnimator;
 
     private void OnEnable()
     {
@@ -41,37 +45,61 @@ public class PlayerMovement : MonoBehaviour
         m_moveAction = inptActs.FindAction("Move");
         m_jumpAction = inptActs.FindAction("Jump");
         jumpSound = GetComponent<AudioSource>();
-        walkSound = GetComponent<AudioSource>();
-        landSound = GetComponent<AudioSource>();
+        walkSound = walkObject.GetComponent<AudioSource>();
+        landSound = groundCheck.GetComponent<AudioSource>();
     }
     void Start()
     {
         rb2D = GetComponent<Rigidbody2D>();
-        walkSpeed = 10f;
-        jumpForce = 15;
+        walkSpeed = 15f;
+        jumpForce = 10;
         lookDirection = 1;
         isGrounded = true;
+        jumpCloud.SetActive(false);
     }
     void Update()
     {
         flipSprite();
         m_position = m_moveAction.ReadValue<Vector2>();
         rb2D.linearVelocity = new Vector2(m_position.x * walkSpeed, rb2D.linearVelocity.y);
-        if (m_jumpAction != null && m_jumpAction.WasPressedThisFrame())
+        if(m_position.x != 0 && isGrounded == true)
+        {
+            if (!walkSound.isPlaying)
+            {
+                walkSound.Play();
+            }
+            playerAnimator.SetBool("Walking", true);
+        }
+        else if (m_position.x == 0 || isGrounded == false)
+        {
+            walkSound.Stop();
+            playerAnimator.SetBool("Walking", false);
+        }
+        if (m_jumpAction != null && m_jumpAction.WasPressedThisFrame() && jumpCount < 2)
         {
             rb2D.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
             isGrounded = false;
+            jumpCount++;
             jumpSound.Play();
+            jumpCloud.SetActive(true);
         }
-        if (isGrounded == false)
+        if (isGrounded == false && rb2D.linearVelocityY < 0)
         {
-            rb2D.gravityScale = 2f;
-            m_jumpAction.Disable();
+            rb2D.gravityScale = 7f;
+            Debug.Log("Falling" + rb2D.gravityScale);
+            jumpCloud.SetActive(false);
+            if (jumpCount > 1)
+            {
+                m_jumpAction.Disable();
+            }  
         }
         else if (isGrounded == true)
         {
             rb2D.gravityScale = 1f;
+            Debug.Log("Falling" + rb2D.gravityScale);
+            jumpCount = 0;
             m_jumpAction.Enable();
+            jumpCloud.SetActive(false);
 
         }
 
@@ -79,15 +107,13 @@ public class PlayerMovement : MonoBehaviour
         {
             if (m_position.x > 0)
             {
-                transform.localScale = new Vector3(1, 1, 1);
+                transform.localScale = new Vector3(2, 1, 1);
                 lookDirection = 1;
-                walkSound.Play();
             }
             else if (m_position.x < 0)
             {
-                transform.localScale = new Vector3(-1, 1, 1);
+                transform.localScale = new Vector3(-2, 1, 1);
                 lookDirection = -1;
-                walkSound.Play();
             }
         }
     }
@@ -98,9 +124,18 @@ public class PlayerMovement : MonoBehaviour
            {
             isGrounded = true;
             rb2D.gravityScale = 1f;
+            Debug.Log("Falling" + rb2D.gravityScale);
+            jumpCount = 0;
             m_jumpAction.Enable();
             landSound.Play();
            }
         }
-            
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (groundCheck & other.gameObject.CompareTag("Ground"))
+        {
+            isGrounded = false;
+        }
+    }
+
 }

@@ -1,0 +1,1430 @@
+fileFormatVersion: 2
+guid: 8b0a99e064a6fa4459b9765a38728012
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8111923395667506205
+    second: Barrel resized_0
+  - first:
+      213: -8717777630686069028
+    second: Barrel resized_1
+  - first:
+      213: -6236299867229786571
+    second: Barrel resized_2
+  - first:
+      213: -4044175252949425245
+    second: Barrel resized_3
+  - first:
+      213: -4037614054900537954
+    second: Barrel resized_4
+  - first:
+      213: 7505435319470500012
+    second: Barrel resized_5
+  - first:
+      213: -1305613905955308561
+    second: Barrel resized_6
+  - first:
+      213: 8716095453851096255
+    second: Barrel resized_7
+  - first:
+      213: 6827744216844782161
+    second: Barrel resized_8
+  - first:
+      213: -1822785591312645005
+    second: Barrel resized_9
+  - first:
+      213: -1642583800913876657
+    second: Barrel resized_10
+  - first:
+      213: 3650083943749199727
+    second: Barrel resized_11
+  - first:
+      213: 1206787329615258681
+    second: Barrel resized_12
+  - first:
+      213: 4487224594808315681
+    second: Barrel resized_13
+  - first:
+      213: -8502630148502054679
+    second: Barrel resized_14
+  - first:
+      213: -4981006083933320450
+    second: Barrel resized_15
+  - first:
+      213: -14518868578449208
+    second: Barrel resized_16
+  - first:
+      213: -4488103910295704979
+    second: Barrel resized_17
+  - first:
+      213: -1538222533565623046
+    second: Barrel resized_18
+  - first:
+      213: 6161411991106839367
+    second: Barrel resized_19
+  - first:
+      213: -7980502356800725454
+    second: Barrel resized_20
+  - first:
+      213: 763946391867208222
+    second: Barrel resized_21
+  - first:
+      213: 6207439036176568696
+    second: Barrel resized_22
+  - first:
+      213: 4479464217308993598
+    second: Barrel resized_23
+  - first:
+      213: 2430775457060125176
+    second: Barrel resized_24
+  - first:
+      213: -6983864667022146556
+    second: Barrel resized_25
+  - first:
+      213: -6477285921823539720
+    second: Barrel resized_26
+  - first:
+      213: -1309300240632654143
+    second: Barrel resized_27
+  - first:
+      213: -1177815138820308498
+    second: Barrel resized_28
+  - first:
+      213: -495415992732644004
+    second: Barrel resized_29
+  - first:
+      213: -6475991387753979872
+    second: Barrel resized_30
+  - first:
+      213: -7552397320132885963
+    second: Barrel resized_31
+  - first:
+      213: -9160639095419343413
+    second: Barrel resized_32
+  - first:
+      213: 6881880701624807932
+    second: Barrel resized_33
+  - first:
+      213: 6226367624225428300
+    second: Barrel resized_34
+  - first:
+      213: -2799044449708675438
+    second: Barrel resized_35
+  - first:
+      213: 8349957936078080650
+    second: Barrel resized_36
+  - first:
+      213: 5213297577896979404
+    second: Barrel resized_37
+  - first:
+      213: -1283856415306459080
+    second: Barrel resized_38
+  - first:
+      213: 7863556397556629681
+    second: Barrel resized_39
+  - first:
+      213: 36561306219369934
+    second: Barrel resized_40
+  - first:
+      213: -2020707388194023148
+    second: Barrel resized_41
+  - first:
+      213: -8794735583561454460
+    second: Barrel resized_42
+  - first:
+      213: 5487168499732832682
+    second: Barrel resized_43
+  - first:
+      213: -2359212601869702911
+    second: Barrel resized_44
+  - first:
+      213: 460337323813647446
+    second: Barrel resized_45
+  - first:
+      213: 8160316241183994254
+    second: Barrel resized_46
+  - first:
+      213: 3300991351485716598
+    second: Barrel resized_47
+  - first:
+      213: 7074288339500450445
+    second: Barrel resized_48
+  - first:
+      213: -308666780089982096
+    second: Barrel resized_49
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Barrel resized_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 311
+        width: 40
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1431fb7957539070800000000000000
+      internalID: 8111923395667506205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barrel resized_1
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 311
+        width: 40
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cde3c140f6b340780800000000000000
+      internalID: -8717777630686069028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barrel resized_2
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 311
+        width: 40
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53ee3f4ef463479a0800000000000000
+      internalID: -6236299867229786571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barrel resized_3
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 311
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a3268ec80430e7c0800000000000000
+      internalID: -4044175252949425245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barrel resized_4
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 311
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e956785c86387f7c0800000000000000
+      internalID: -4037614054900537954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barrel resized_5
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 311
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca8a5b558a9a82860800000000000000
+      internalID: 7505435319470500012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barrel resized_6
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 311
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feb39b9e11781ede0800000000000000
+      internalID: -1305613905955308561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barrel resized_7
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 311
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb4113ba2aac5f870800000000000000
+      internalID: 8716095453851096255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barrel resized_8
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 259
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15ac246b03501ce50800000000000000
+      internalID: 6827744216844782161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barrel resized_9
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 259
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3740c18892a24b6e0800000000000000
+      internalID: -1822785591312645005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barrel resized_10
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 259
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f49a7b06cbe5439e0800000000000000
+      internalID: -1642583800913876657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barrel resized_11
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 259
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6727830204b7a230800000000000000
+      internalID: 3650083943749199727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barrel resized_12
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 259
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 934e825beae5fb010800000000000000
+      internalID: 1206787329615258681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barrel resized_13
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 259
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12f12f0aef2d54e30800000000000000
+      internalID: 4487224594808315681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barrel resized_14
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 259
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e81206cde6900a80800000000000000
+      internalID: -8502630148502054679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barrel resized_15
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 259
+        width: 37
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efa481f6b59efdab0800000000000000
+      internalID: -4981006083933320450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barrel resized_16
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 207
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c847db7a2b6ccff0800000000000000
+      internalID: -14518868578449208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barrel resized_17
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 207
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6a68c7c54d07b1c0800000000000000
+      internalID: -4488103910295704979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barrel resized_18
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 207
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af4d15d61c227aae0800000000000000
+      internalID: -1538222533565623046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barrel resized_19
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 207
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74361c4bf8bb18550800000000000000
+      internalID: 6161411991106839367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barrel resized_20
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 207
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23e99b5936f8f3190800000000000000
+      internalID: -7980502356800725454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barrel resized_21
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 207
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e12bfa222351a9a00800000000000000
+      internalID: 763946391867208222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barrel resized_22
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 207
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 871923c3ae0452650800000000000000
+      internalID: 6207439036176568696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barrel resized_23
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 207
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3896c0f8f04a2e30800000000000000
+      internalID: 4479464217308993598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barrel resized_24
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 155
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f97ece3669dbb120800000000000000
+      internalID: 2430775457060125176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barrel resized_25
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 155
+        width: 40
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4044eb26614541f90800000000000000
+      internalID: -6983864667022146556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barrel resized_26
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 155
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fdb111b5ce0c16a0800000000000000
+      internalID: -6477285921823539720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barrel resized_27
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 155
+        width: 40
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c6d1cc3e5e64dde0800000000000000
+      internalID: -1309300240632654143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barrel resized_28
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 155
+        width: 40
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee1c98f1f5f87afe0800000000000000
+      internalID: -1177815138820308498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barrel resized_29
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 155
+        width: 40
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5d8f1987cdef19f0800000000000000
+      internalID: -495415992732644004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barrel resized_30
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 155
+        width: 40
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0206f64e428a026a0800000000000000
+      internalID: -6475991387753979872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barrel resized_31
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 155
+        width: 39
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5320ed2d6ae703790800000000000000
+      internalID: -7552397320132885963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barrel resized_32
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 103
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcd69f1274fded080800000000000000
+      internalID: -9160639095419343413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barrel resized_33
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 103
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf176fe490a518f50800000000000000
+      internalID: 6881880701624807932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barrel resized_34
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 103
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4313f29d50886650800000000000000
+      internalID: 6226367624225428300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barrel resized_35
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 103
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29ee59827ebc729d0800000000000000
+      internalID: -2799044449708675438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barrel resized_36
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 103
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8a436db08201e370800000000000000
+      internalID: 8349957936078080650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barrel resized_37
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 103
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccb24fe968a595840800000000000000
+      internalID: 5213297577896979404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barrel resized_38
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 103
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8385d077463de2ee0800000000000000
+      internalID: -1283856415306459080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barrel resized_39
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 103
+        width: 37
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b00d9371e6f02d60800000000000000
+      internalID: 7863556397556629681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barrel resized_40
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 51
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec5dab57054e18000800000000000000
+      internalID: 36561306219369934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barrel resized_41
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 51
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41910bb265105f3e0800000000000000
+      internalID: -2020707388194023148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barrel resized_42
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 53
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48ce4505592d2f580800000000000000
+      internalID: -8794735583561454460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barrel resized_43
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 51
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa1e941ada6562c40800000000000000
+      internalID: 5487168499732832682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barrel resized_44
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 51
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1096ee363a4624fd0800000000000000
+      internalID: -2359212601869702911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barrel resized_45
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 51
+        width: 40
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65434c66b52736600800000000000000
+      internalID: 460337323813647446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barrel resized_46
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 51
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e817f9ad2644f3170800000000000000
+      internalID: 8160316241183994254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barrel resized_47
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 51
+        width: 39
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67851ff052a7fcd20800000000000000
+      internalID: 3300991351485716598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barrel resized_48
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 40
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d82cc9a73cbec2260800000000000000
+      internalID: 7074288339500450445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barrel resized_49
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 0
+        width: 40
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 073e5cae23567bbf0800000000000000
+      internalID: -308666780089982096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Barrel resized_0: 8111923395667506205
+      Barrel resized_1: -8717777630686069028
+      Barrel resized_10: -1642583800913876657
+      Barrel resized_11: 3650083943749199727
+      Barrel resized_12: 1206787329615258681
+      Barrel resized_13: 4487224594808315681
+      Barrel resized_14: -8502630148502054679
+      Barrel resized_15: -4981006083933320450
+      Barrel resized_16: -14518868578449208
+      Barrel resized_17: -4488103910295704979
+      Barrel resized_18: -1538222533565623046
+      Barrel resized_19: 6161411991106839367
+      Barrel resized_2: -6236299867229786571
+      Barrel resized_20: -7980502356800725454
+      Barrel resized_21: 763946391867208222
+      Barrel resized_22: 6207439036176568696
+      Barrel resized_23: 4479464217308993598
+      Barrel resized_24: 2430775457060125176
+      Barrel resized_25: -6983864667022146556
+      Barrel resized_26: -6477285921823539720
+      Barrel resized_27: -1309300240632654143
+      Barrel resized_28: -1177815138820308498
+      Barrel resized_29: -495415992732644004
+      Barrel resized_3: -4044175252949425245
+      Barrel resized_30: -6475991387753979872
+      Barrel resized_31: -7552397320132885963
+      Barrel resized_32: -9160639095419343413
+      Barrel resized_33: 6881880701624807932
+      Barrel resized_34: 6226367624225428300
+      Barrel resized_35: -2799044449708675438
+      Barrel resized_36: 8349957936078080650
+      Barrel resized_37: 5213297577896979404
+      Barrel resized_38: -1283856415306459080
+      Barrel resized_39: 7863556397556629681
+      Barrel resized_4: -4037614054900537954
+      Barrel resized_40: 36561306219369934
+      Barrel resized_41: -2020707388194023148
+      Barrel resized_42: -8794735583561454460
+      Barrel resized_43: 5487168499732832682
+      Barrel resized_44: -2359212601869702911
+      Barrel resized_45: 460337323813647446
+      Barrel resized_46: 8160316241183994254
+      Barrel resized_47: 3300991351485716598
+      Barrel resized_48: 7074288339500450445
+      Barrel resized_49: -308666780089982096
+      Barrel resized_5: 7505435319470500012
+      Barrel resized_6: -1305613905955308561
+      Barrel resized_7: 8716095453851096255
+      Barrel resized_8: 6827744216844782161
+      Barrel resized_9: -1822785591312645005
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
