@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 9039881433452384090}
   - component: {fileID: 2959376235126108936}
   m_Layer: 0
-  m_Name: Barrel
+  m_Name: BarrelX
   m_TagString: Barrel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -88,7 +88,7 @@ SpriteRenderer:
   m_MaskInteraction: 0
   m_Sprite: {fileID: 8111923395667506205, guid: 8b0a99e064a6fa4459b9765a38728012, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 1, y: 1}
@@ -274,7 +274,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.0009571314, y: 0.09564318}
+  m_Offset: {x: 0.0019652992, y: 0.09485598}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -284,5 +284,5 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.42276514, y: 0.2779324}
+  m_Size: {x: 0.44218525, y: 0.276358}
   m_EdgeRadius: 0

@@ -1,31 +1,43 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.UI;
 
 public class PlayerMovement : MonoBehaviour
 {
-   public InputActionAsset inptActs;
-
+    // References to input actions and asset map
+    public InputActionAsset inptActs;
     private InputAction m_moveAction;
     private InputAction m_jumpAction;
 
+    //other movement variables
     private Vector2 m_position;
     private Rigidbody2D rb2D;
     [SerializeField]int lookDirection;
     float walkSpeed;
-     float jumpForce;
-
-    [SerializeField]int jumpCount = 0;
-
-    public GameObject groundCheck;
-    [SerializeField]GameObject jumpCloud;
-    public bool isGrounded;
-
-    public AudioSource jumpSound;
     public AudioSource walkSound;
-    [SerializeField]GameObject walkObject;
-    public AudioSource landSound;
-    [SerializeField]Animator playerAnimator;
+    [SerializeField] GameObject walkObject;
 
+    //jump variables
+    float jumpForce;
+    [SerializeField] int jumpCount = 0;
+    public GameObject groundCheck;
+    [SerializeField] GameObject jumpCloud;
+    public bool isGrounded;
+    public AudioSource jumpSound;
+    public AudioSource landSound;
+
+    //lives & score variables
+    public int lives = 3;
+    public int score = 0;
+
+    //sword variables
+    public bool touchedSword;
+
+    //animator variable
+    public Animator playerAnimator;
+
+
+    //checks for input actions and enables them when the object is enabled, disables them when the object is disabled
     private void OnEnable()
     {
         m_moveAction = inptActs.FindAction("Move");
@@ -56,9 +68,16 @@ public class PlayerMovement : MonoBehaviour
         lookDirection = 1;
         isGrounded = true;
         jumpCloud.SetActive(false);
+        touchedSword = false;
     }
     void Update()
     {
+        // Check if the player has touched the sword and call the HasSword method if true
+        if (touchedSword == true)
+        {
+            HasSword();
+        }
+
         flipSprite();
         m_position = m_moveAction.ReadValue<Vector2>();
         rb2D.linearVelocity = new Vector2(m_position.x * walkSpeed, rb2D.linearVelocity.y);
@@ -118,24 +137,45 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-        private void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (groundCheck & other.gameObject.CompareTag("Ground"))
         {
-           if (groundCheck & other.gameObject.CompareTag("Ground"))
-           {
             isGrounded = true;
             rb2D.gravityScale = 1f;
             Debug.Log("Falling" + rb2D.gravityScale);
             jumpCount = 0;
             m_jumpAction.Enable();
             landSound.Play();
-           }
         }
+        if (other.gameObject.CompareTag("Barrel"))
+        {
+           lives -= 1;
+            if (lives <= 0)
+            {
+                // Implement game over logic here, e.g., show game over screen, reset level, etc.
+                Debug.Log("Game Over!");
+            }
+        }
+    }
     private void OnTriggerExit2D(Collider2D other)
     {
         if (groundCheck & other.gameObject.CompareTag("Ground"))
         {
             isGrounded = false;
         }
+        if(other.gameObject.CompareTag("sword"))
+        {
+            touchedSword = true;
+            Destroy(other.gameObject);
+        }
+    }
+    public void HasSword()
+    {
+        // Implement sword logic here, e.g., enable sword attack, change player appearance, etc.
+        playerAnimator.SetBool("withSword", true);
+        //debug log to confirm sword pickup
+        Debug.Log("Player has sword!");
     }
 
 }
